@@ -1,0 +1,140 @@
+{
+	"productionId": "1212343",
+	"language": "english",
+	"service": "Draft Screencast",
+	"videoId": "KABBOLIGAA001ENG",
+	"videoTitle": "This is my cool video",
+	"videoOriginal": "s3://blblbl/video.mp4",
+	"videoResult": "s3://blblbl/video_out.mp4",
+	"audioVoiceOver": "s3://blblbl/voice-over.mp3",
+	"channelIcon": "s3://blblbl/icon.ico",
+	"thumbnail": "s3://blblbl/thumbnail.png",
+	"quickGuideCopyright": "Copyright customer....",
+	"quickGuideIntroduction": "Learn how to....",
+	"quickGuideColour": "#121212",
+	"breakpoints": [{
+		"id": 1,
+		"start": "00:00:00",
+		"transcription": "What the speaker said",
+		"manuscript": "Manuscript text for this breakpoint"
+	},
+	{
+		"id": 2,
+		"start": "00:01:00",
+		"transcription": "What the speaker said",
+		"manuscript": "Manuscript text for this breakpoint"
+	}],
+	"voiceOver": [{
+		"id": "1",
+		"language": "English",
+		"start": "00:00:00"
+	}],
+	"quickGuide": [{
+		"id": "1",
+		"start": "00:00:00",
+		"text": "Clik on...",
+		"image": "S3 link",
+		"x": "100",
+		"y": "200",
+		"height": "450",
+		"width": "325"
+	}],
+	"effects": {
+		"fadeDuration": 1,
+		"thickness": 5,
+		"fadeDark": 3,
+		"dstBucket": "video-out-supermans",
+		"srcBucket": "video-in-supermans",
+		"videoOut": "out.mp4",
+		"videoIn": "in.mp4",
+		"keyboard": [{
+			"id": 1,
+			"language": "english",
+			"buttons": "esc|left_shift|space|r",
+			"fadeIn": true,
+			"fadeOut": true,
+			"start": 2,
+			"stop": 5
+		}],
+		"blur": [{
+			"id": 1,
+			"start": 2,
+			"stop": 5,
+			"x": 100,
+			"y": 100,
+			"height": 200,
+			"width": 250
+		}],
+		"highlight": [{
+			"id": 1,
+			"start": 2,
+			"stop": 5,
+			"x": 100,
+			"y": 100,
+			"height": 200,
+			"width": 250
+		}],
+		"circle": [{
+			"id": 1,
+			"start": 2,
+			"stop": 5,
+			"x": 200,
+			"y": 200,
+			"height": 200,
+			"width": 250,
+			"thickness": 5,
+			"fadeIn": true,
+			"fadeOut": true,
+			"color": "red@0.7"
+		}],		
+		"box": [
+			{
+			"id": 1,
+			"start": 2,
+			"stop": 5,
+			"x": 100,
+			"y": 100,
+			"height": 200,
+			"width": 250,
+			"thickness": 5,
+			"color": "red@0.7"
+			},
+			{
+			"id": 1,
+			"start": 4,
+			"stop": 8,
+			"x": 250,
+			"y": 150,
+			"height": 100,
+			"width": 150,
+			"thickness": 5,
+			"color": "blue@0.7"
+			}
+		],
+		"capture": [{
+			"start": 1,
+			"stop": 4,
+			"fadeIn": true,
+			"fadeOut": true,
+			"text": "Any text for ca'pture",
+			"color": "red@0.7"
+		},
+		{
+			"start": 6,
+			"stop": 9,
+			"fadeIn": true,
+			"fadeOut": true,
+			"text": "315-820!!! Call now!!!",
+			"color": "blue@0.7"
+		}],
+		"crop": [{
+			"id": 1,
+			"start": 2,
+			"x": 100,
+			"y": 100,
+			"height": 200,
+			"width": 250,
+			"imageOut": "1.png"
+		}]
+	}
+}
